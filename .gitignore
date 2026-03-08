@@ -1,0 +1,40 @@
+# ===== RAW DATA =====
+data/raw/
+data/processed/
+_SUCCESS
+
+# ===== BLOCK PARQUET EVERYWHERE =====
+*.parquet
+
+# ===== ALLOW DATA/VIZ CSVs =====
+!data/viz/
+!data/viz/*.csv
+
+# ===== ALLOW REPORTS =====
+!data/reports/
+!data/reports/*.txt
+!data/reports/*.png
+
+# ===== ALLOW DASHBOARDS =====
+!dashboards/
+!dashboards/*.twbx
+
+# ===== PYTHON =====
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.key
+
+# ===== AIRFLOW =====
+airflow/logs/
+airflow.db
+
+# ===== AWS =====
+.aws/
+*.pem
+
+# ===== WINDOWS =====
+Thumbs.db
+desktop.ini
+.DS_Store
