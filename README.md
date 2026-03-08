@@ -119,4 +119,4 @@ stock_market_pipeline/
    * Pandas
    * Scikit-learn
    * Matplotlib
-   * Boto3 (AWS SDK
+   * Boto3 (AWS SDK)
